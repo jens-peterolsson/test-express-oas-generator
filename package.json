@@ -1,0 +1,34 @@
+{
+  "name": "test-express-oas-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apiLocal.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-oas-generator": "^1.0.23"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "*",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-prettier": "^3.1.0",
+    "got": "^11.2.0",
+    "jest": "^25.5.4",
+    "nodemon": "*",
+    "prettier": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon ./apiLocal.js",
+    "test": "jest"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

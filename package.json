@@ -14,7 +14,7 @@
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jest": "*",
     "eslint-plugin-prettier": "^3.1.0",
-    "got": "^11.2.0",
+    "got": "^11.8.5",
     "jest": "^25.5.4",
     "nodemon": "*",
     "prettier": "^2.0.4"
